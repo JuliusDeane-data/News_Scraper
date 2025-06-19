@@ -41,8 +41,8 @@ To run this web scraper locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-    cd YOUR_REPO_NAME
+    git clone https://github.com/JuliusDeane-data/News_Scraper.git
+    cd News_Scraper
     ```
 2.  **Create and activate a virtual environment (recommended):**
     ```bash
@@ -55,8 +55,7 @@ To run this web scraper locally:
 3.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
-    ```
-    (You'll need to create a `requirements.txt` file if you haven't already: `pip freeze > requirements.txt`)
+    ```    
 4.  **Configure scraping settings (optional):**
     Open `main.py` and adjust the `INTERVALL`, `REPETITIONS`, and `PAGE` variables as needed.
     ```python
